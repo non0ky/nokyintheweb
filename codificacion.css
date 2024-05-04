@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    text-align: center;
+    
+  }
+
+  header{
+    width: hidden;
+    height: 5em;
+    display:block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  h2{
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  header ul{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+  }
+
+  header li{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  li a{
+    text-decoration: none;
+    color:white;
+  }
+
+  li a:hover{
+    animation-name: parpadeo;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+  }
+
+    @keyframes parpadeo{
+        from{
+           color: white;
+        }
+
+        to{
+            color: black;
+        }
+    }
+
+    .contenido{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        padding: 10px;
+      }
+    
+      .text{
+        display: block;
+        border-color: white;
+        text-align: justify;
+        max-width: 400px;
+        padding: 10px;
+      }
+    
+      .p{
+        margin: 10px;
+      }
+
+       .block{
+      margin-top: 80px;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .grilla{
+      margin-right: 5px;
+    }
+    .grilla img{
+      width: 400px;
+    }
+
+    .grilla2{
+        margin-right: 5px;
+      }
+    .grilla2 img{
+        width: 600px;
+     }
